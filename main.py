@@ -20,10 +20,10 @@ def main():
             add_contact(contacts)
         elif choice == '2':
             view_contacts(contacts)
-        # elif choice == '3':
-        #     search_contact(contacts)
-        # elif choice == '4':
-        #     remove_contact(contacts)
+        elif choice == '3':
+            search_contact(contacts)
+        elif choice == '4':
+            remove_contact(contacts)
         elif choice == '5':
             save_contacts(contacts)
             print("Goodbye!")
